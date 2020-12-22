@@ -26,14 +26,6 @@
           >router</a
         >
       </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
-      </li>
     </ul>
     <h3>My Work</h3>
     <ul>
@@ -42,6 +34,7 @@
           href="https://github.com/alxrtega"
           target="_blank"
           rel="noopener"
+          class="button"
           >GitHub</a
         >
       </li>
@@ -72,6 +65,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #1557b9;
 }
 </style>
