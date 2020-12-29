@@ -1,42 +1,40 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <img alt="App logo" src="../assets/ao.png" />
     <p>
-      For a guide and recipes on how to configure / customize this project,<br />
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener"
-        >vue-cli documentation</a
-      >.
+      This app was created to showcase my IT and software development skills.<br /><br>
+      Checkout my simple app as I will informally present myself!
     </p>
-    <h3>More about me...</h3>
+    <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
-          target="_blank"
-          rel="noopener"
-          >babel</a
-        >
+        <a href="/bio" class="button6">
+          Bio
+        </a>
       </li>
       <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
-          target="_blank"
-          rel="noopener"
-          >router</a
-        >
+        <a href="/academia" class="button4">
+          Academia
+        </a>
+      </li>
+      <li>
+        <a href="/experience" class="button5">
+          Experience
+        </a>
+      </li>
+      <li>
+        <a href="/test" class="button3">
+          Testing
+        </a>
       </li>
     </ul>
     <h3>My Work</h3>
     <ul>
       <li>
-        <a
-          href="https://github.com/alxrtega"
-          target="_blank"
-          rel="noopener"
-          class="button"
-          >GitHub</a
-        >
+        <a href="https://github.com/alxrtega" target="_blank" rel="noopener" class="button2">
+          GitHub
+        </a>
       </li>
     </ul>
   </div>
@@ -63,8 +61,5 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
-}
-a {
-  color: #1557b9;
 }
 </style>

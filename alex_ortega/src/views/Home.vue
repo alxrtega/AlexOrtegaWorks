@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/daffyDuck.png" />
     <Display msg="Welcome to Alex's Web App" />
   </div>
 </template>
