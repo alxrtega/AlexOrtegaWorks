@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/" v-if="$route.fullPath !== '/'" disabled="true" class="button1">Home</router-link>
+      <router-link to="/" v-if="$route.fullPath !== '/'" disabled="true" class="button1">Home</router-link><br>
       <router-link to="/bio" v-if="$route.fullPath !== '/'" disabled="true" class="button6">Bio</router-link>
       <router-link to="academia/" v-if="$route.fullPath !== '/'" disabled="true" class="button4">Academia</router-link>
       <router-link to="/experience" v-if="$route.fullPath !== '/'" disabled="true" class="button5">Experience</router-link>
@@ -30,13 +30,13 @@
 
 .button1 { /* Blue */
   background-color: #008CBA; 
-  border: none;
+  border: double;
   color: white;
-  padding: 15px 32px;
+  padding: 20px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 22px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
@@ -46,7 +46,7 @@
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -60,7 +60,7 @@
   background-color: #f44336; 
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -74,7 +74,7 @@
   background-color: #e7e7e7; 
   color: black; 
   border: none;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -88,7 +88,7 @@
   background-color: #555555; 
   color: white; 
   border: none;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -102,7 +102,7 @@
   background-color: #ffd000; 
   color: black; 
   border: none;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
