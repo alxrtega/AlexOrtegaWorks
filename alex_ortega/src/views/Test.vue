@@ -1,8 +1,28 @@
 <template>
   <div>
     <hero-bar>
-      {{ heroTitle }}
+      <h1>
+        Test Page
+      </h1>
     </hero-bar>
+    <p>
+      <h1>
+        blah blahkjalkdfja;klfj akljf;alkdsjfl;aksdfj als;
+      </h1>
+    <hr>
+
+    <p>
+      <h2>
+        blah blahkjalkdfja;klfj akljf;alkdsjfl;aksdfj als;
+      </h2>
+    <hr>
+
+    <p>
+      <h3>
+        blasdf 11111111111111111111  ah blahkjalkdfja;klfj akljf;alkdsjfl;aksdfj als;
+      </h3>
+    <hr>
+
     <button class="cybr-btn">Button</button>
     <button class="cybr-btn">Button</button>
     <button class="cybr-btn">Button</button>
@@ -22,33 +42,12 @@ import HeroBar from "@/components/HeroBar";
 // import Tiles from "@/components/Tiles"
 //import CardComponent from "../components/CardComponent.vue";
 export default {
-  name: "TaskForm",
   components: { HeroBar },
   data() {
     return {
     }
   },
   computed: {
-    titleStack () {
-      let lastCrumb
-      if (this.isProfileExists) {
-        lastCrumb = this.form.title
-      } else {
-        lastCrumb = "Test Page"
-      }
-      return [
-        "Analyst",
-        "Task",
-        lastCrumb
-      ]
-    },
-    heroTitle () {
-      if (this.isProfileExists) {
-        return this.form.title
-      } else {
-        return "Test Page"
-      }
-    },
     heroRouterLinkTo () {
       return "/"
     },
@@ -56,8 +55,5 @@ export default {
       return "Back"
     },
   },
-  methods: {
-
-  }
 }
 </script>

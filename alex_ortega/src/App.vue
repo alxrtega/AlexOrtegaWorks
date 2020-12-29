@@ -2,6 +2,9 @@
   <div id="app">
     <div id="nav">
       <router-link to="/" v-if="$route.fullPath !== '/'" disabled="true" class="button1">Home</router-link>
+      <router-link to="/bio" v-if="$route.fullPath !== '/'" disabled="true" class="button6">Bio</router-link>
+      <router-link to="academia/" v-if="$route.fullPath !== '/'" disabled="true" class="button4">Academia</router-link>
+      <router-link to="/experience" v-if="$route.fullPath !== '/'" disabled="true" class="button5">Experience</router-link>
     </div>
     <router-view />
   </div>
@@ -25,7 +28,7 @@
   font-size: large;
 }
 
-.button1 {
+.button1 { /* Blue */
   background-color: #008CBA; 
   border: none;
   color: white;
@@ -39,7 +42,7 @@
   border-radius: 12px;
 }
 
-.button2 { /* Blue */
+.button2 { 
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
