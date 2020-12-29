@@ -43,10 +43,6 @@ import HeroBar from "@/components/HeroBar";
 //import CardComponent from "../components/CardComponent.vue";
 export default {
   components: { HeroBar },
-  data() {
-    return {
-    }
-  },
   computed: {
     heroRouterLinkTo () {
       return "/"

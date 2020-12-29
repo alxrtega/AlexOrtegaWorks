@@ -9,13 +9,13 @@
     <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a href="/bio" class="button6">
-          Bio
+        <a href="/academia" class="button4">
+          Academia
         </a>
       </li>
       <li>
-        <a href="/academia" class="button4">
-          Academia
+        <a href="/bio" class="button6">
+          Bio
         </a>
       </li>
       <li>
@@ -23,16 +23,11 @@
           Experience
         </a>
       </li>
-      <li>
-        <a href="/test" class="button3">
-          Testing
-        </a>
-      </li>
     </ul>
-    <h3>My Work</h3>
+    <h3>Source Code</h3>
     <ul>
       <li>
-        <a href="https://github.com/alxrtega" target="_blank" rel="noopener" class="button2">
+        <a href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite" target="_blank" rel="noopener" class="button2">
           GitHub
         </a>
       </li>
