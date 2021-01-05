@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Display msg="Welcome to Alex's Web App" />
+    <Display msg="Alex Ortega Works" />
   </div>
 </template>
 

@@ -1,9 +1,10 @@
 <template>
   <div class="hello">
+    <img alt="app logo" src="../assets/ao.png" />
     <h1>{{ msg }}</h1>
-    <img alt="App logo" src="../assets/ao.png" />
     <p>
-      This app was created to showcase my IT and software development skills.<br /><br>
+      This web app was created to showcase my IT and software development
+      skills.<br /><br />
       Checkout my simple app as I will informally present myself!
     </p>
     <h3>Explore more about me...</h3>
@@ -23,12 +24,35 @@
           Experience
         </a>
       </li>
+      <li>
+        <a href="/test" class="button8">
+          Testing
+        </a>
+      </li>
     </ul>
     <h3>Source Code</h3>
     <ul>
       <li>
-        <a href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite" target="_blank" rel="noopener" class="button2">
+        <a
+          href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite"
+          target="_blank"
+          rel="noopener"
+          class="button2"
+        >
           GitHub
+        </a>
+      </li>
+    </ul>
+    <h3>Contact Me</h3>
+    <ul>
+      <li>
+        <a
+          href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite"
+          target="_blank"
+          rel="noopener"
+          class="button3"
+        >
+          Contact Card
         </a>
       </li>
     </ul>
