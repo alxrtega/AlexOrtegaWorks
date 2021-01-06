@@ -111,3 +111,13 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 10%;
+}
+
+</style>
