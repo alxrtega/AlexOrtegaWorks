@@ -1,48 +1,39 @@
 <template>
-  <div class="hello ">
+  <div class="hello">
     <div align="center">
       <img alt="app logo" src="../assets/ao.png" />
     </div>
-    <h1>Hello, I am<br>Alex Ortega</h1>
+    <h1>Hello, I am<br />Alex Ortega</h1>
     <p>
-      I am a driven individual that carries experience and skills to positively impact other individuals, teams
-      and the enviroment around me. This portfolio will showcase the skills that I have learned throughout
-      my career as an IT professional and as a Computer Science student. Checkout my portfolio as I will informally present myself!
+      I am a driven individual that carries experience and skills to positively
+      impact other individuals, teams and the enviroment around me. This
+      portfolio will showcase the skills that I have learned throughout my
+      career as an IT professional and as a Computer Science student. Checkout
+      my portfolio as I will informally present myself!
     </p>
     <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a href="/academia" class="green">
-          Academia
-        </a>
+        <a href="/academia" class="green"> Academia </a>
       </li>
-      <br>
+      <br />
       <li>
-        <a href="/bio" class="green">
-          Bio
-        </a>
+        <a href="/bio" class="green"> Bio </a>
       </li>
-      <br>
+      <br />
       <li>
-        <a href="/experience" class="green">
-          Experience
-        </a>
+        <a href="/experience" class="green"> Experience </a>
       </li>
-      <br>
+      <br />
       <li>
-        <a href="/test" class="black">
-          Testing
-        </a>
+        <a href="/test" class="black"> Testing </a>
       </li>
-      <br>
+      <br />
     </ul>
     <h3>Contact Me</h3>
     <ul>
       <li>
-        <button 
-          class="blue"
-          @click="$refs.modalName0.openModal()"
-        >
+        <button class="blue" @click="$refs.modalName0.openModal()">
           Contact Card
         </button>
       </li>
@@ -52,7 +43,9 @@
         <p>Name: Alex Ortega</p>
         <p>Email: alx_ortega@outlook.com</p>
         <div>
-          <button class="button red" @click="$refs.modalName0.closeModal()">close</button>
+          <button class="button red" @click="$refs.modalName0.closeModal()">
+            close
+          </button>
         </div>
       </template>
     </modal>

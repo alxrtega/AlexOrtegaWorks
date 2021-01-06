@@ -6,9 +6,9 @@
       <a href="bio">Bio</a>
       <a href="experience">Experience</a>
     </div>
-    <br /> 
+    <br />
     <vue-page-transition name="overlay-up">
-      <router-view/>
+      <router-view />
     </vue-page-transition>
     <div align="right">
       <footer-bar />
@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import Vue from "vue"
-import VuePageTransition from "vue-page-transition"
+import Vue from "vue";
+import VuePageTransition from "vue-page-transition";
 import FooterBar from "@/components/FooterBar";
-Vue.use(VuePageTransition)
+Vue.use(VuePageTransition);
 
 export default {
   name: "App",
@@ -30,7 +30,6 @@ export default {
 };
 </script>
 <style>
-
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #2c2f31;
@@ -54,12 +53,12 @@ export default {
 .topnav a:hover {
   background-color: #c0c2c4;
   color: #2c2f31;
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 /* Add a color to the active/current link */
 .topnav a.homeButton {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
@@ -79,7 +78,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
-  padding: .25in;
+  padding: 0.25in;
   color: #c0c2c4;
   background-color: #2c2f31;
 }
@@ -129,10 +128,10 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  }
+}
 
 .green {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   border: none;
   color: white;
   padding: 10px 25px;
@@ -143,10 +142,11 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  } 
+}
 
-.orange { /* Orange */ 
-  background-color: #e74f21; 
+.orange {
+  /* Orange */
+  background-color: #e74f21;
   border: none;
   color: white;
   padding: 10px 25px;
@@ -157,11 +157,12 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  } 
+}
 
-.gray { /* Gray */ 
-  background-color: #e7e7e7; 
-  color: black; 
+.gray {
+  /* Gray */
+  background-color: #e7e7e7;
+  color: black;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -171,11 +172,12 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  } 
+}
 
-.darkgray { /* dark gray */
-  background-color: #555555; 
-  color: white; 
+.darkgray {
+  /* dark gray */
+  background-color: #555555;
+  color: white;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -185,11 +187,12 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  } 
+}
 
-  .yellow { /* Yellow */
-  background-color: #ffd000; 
-  color: black; 
+.yellow {
+  /* Yellow */
+  background-color: #ffd000;
+  color: black;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -199,11 +202,12 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  } 
+}
 
-  .red { /* Red */
-  background-color: #ff0000; 
-  color: rgb(255, 255, 255); 
+.red {
+  /* Red */
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 2px 5px;
   text-align: center;
@@ -213,11 +217,12 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  }
+}
 
-  .black { /* Black */
-  background-color: #000000; 
-  color: rgb(255, 255, 255); 
+.black {
+  /* Black */
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -227,5 +232,5 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  }
+}
 </style>

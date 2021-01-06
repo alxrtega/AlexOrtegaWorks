@@ -5,7 +5,7 @@
         <div class="level-left" />
         <div class="level-item" />
         <div class="level-right">
-          <div class="level-item"><br>AO {{ year }}</div>
+          <div class="level-item"><br />AO {{ year }}</div>
         </div>
       </div>
     </div>
