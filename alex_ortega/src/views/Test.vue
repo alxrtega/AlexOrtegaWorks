@@ -7,46 +7,86 @@
     </hero-bar>
     <p>
       <h1>
-        blah blahkjalkdfja;klfj akljf;alkdsjfl;aksdfj als;
+        Testing paragragh h1. la la la blah!
       </h1>
-    <hr>
+    <hr width="300px" align="left">
 
     <p>
       <h2>
-        blah blahkjalkdfja;klfj akljf;alkdsjfl;aksdfj als;
+        Testing paragraph h2. la la la blah!
       </h2>
-    <hr>
+    <hr width="300px" align="left">
 
     <p>
       <h3>
-        blasdf 11111111111111111111  ah blahkjalkdfja;klfj akljf;alkdsjfl;aksdfj als;
+        Testing paragraph h3. la la la blah!
       </h3>
-    <hr>
+    <hr width="300px" align="left">
 
-      al;kjaklsdfj;alfkj ajs;flkajsfl;kdajslkfa
-      ;lakjsf;aklja;lkfj;lak
-      alskfja;dslkjfa;lj
-      la'jd;ajflkajf;lk
+    Floating text...<br>
 
-    <button class="cybr-btn">Button</button>
-    <button class="cybr-btn">Button</button>
-    <button class="cybr-btn">Button</button>
-    <button class="cybr-btn">Button</button>
-    <br>
-    <button class="button homeButton" @click="$refs.modalName.openModal()">press me</button>
-    <button class="button button2">Green</button>
-    <button class="button button3">Orange</button>
-    <button class="button button4">Gray</button>
-    <button class="button button5">Black</button>
-    <button class="button button7">Red</button>
-
-    <modal ref="modalName">
+    <button class="button gold" @click="$refs.modalName0.openModal()">Gold</button><br>
+    <modal ref="modalName0">
       <template v-slot:header>
-        <h3>Modal title</h3>
-        <p>Test0</p>
-        <p>Test1</p>
+        <p>Test00</p>
+        <p>Test01</p>
         <div>
-          <button class="button button7" @click="$refs.modalName.closeModal()">Close</button>
+          <button class="button red" @click="$refs.modalName0.closeModal()">Close</button>
+        </div>
+      </template>
+    </modal>
+
+    <button class="button green" @click="$refs.modalName1.openModal()">Green</button><br>
+    <modal ref="modalName1">
+      <template v-slot:header>
+        <p>Test10</p>
+        <p>Test11</p>
+        <div>
+          <button class="button red" @click="$refs.modalName1.closeModal()">Close</button>
+        </div>
+      </template>
+    </modal>
+
+    <button class="button orange" @click="$refs.modalName2.openModal()">Orange</button><br>
+    <modal ref="modalName2">
+      <template v-slot:header>
+        <p>Test20</p>
+        <p>Test21</p>
+        <div>
+          <button class="button red" @click="$refs.modalName2.closeModal()">Close</button>
+        </div>
+      </template>
+    </modal>
+
+    <button class="button gray" @click="$refs.modalName3.openModal()">Gray</button><br>
+    <modal ref="modalName3">
+      <template v-slot:header>
+        <p>Test30</p>
+        <p>Test31</p>
+        <div>
+          <button class="button red" @click="$refs.modalName3.closeModal()">Close</button>
+        </div>
+      </template>
+    </modal>
+
+    <button class="button black" @click="$refs.modalName4.openModal()">Black</button><br>
+    <modal ref="modalName4">
+      <template v-slot:header>
+        <p>Test40</p>
+        <p>Test41</p>
+        <div>
+          <button class="button red" @click="$refs.modalName4.closeModal()">Close</button>
+        </div>
+      </template>
+    </modal>
+
+    <button class="button red" @click="$refs.modalName5.openModal()">Red</button><br>
+    <modal ref="modalName5">
+      <template v-slot:header>
+        <p>Test50</p>
+        <p>Test51</p>
+        <div>
+          <button class="button red" @click="$refs.modalName5.closeModal()">Close</button>
         </div>
       </template>
     </modal>
@@ -55,10 +95,7 @@
 
 <script>
 import Modal from "@/components/Modal.vue";
-// import TitleBar from "@/components/TitleBar"
 import HeroBar from "@/components/HeroBar";
-// import Tiles from "@/components/Tiles"
-//import CardComponent from "../components/CardComponent.vue";
 export default {
   name: "Test",
   components: { Modal, HeroBar },

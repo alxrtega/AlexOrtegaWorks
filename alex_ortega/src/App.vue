@@ -8,12 +8,12 @@
         class="homeButton"
       >
         Home</router-link
-      ><br />
+      >
       <router-link
         to="academia/"
         v-if="$route.fullPath !== '/'"
         disabled="true"
-        class="button4"
+        class="blue"
       >
         Academia
       </router-link>
@@ -21,7 +21,7 @@
         to="/bio"
         v-if="$route.fullPath !== '/'"
         disabled="true"
-        class="button6"
+        class="yellow"
       >
         Bio
       </router-link>
@@ -29,13 +29,15 @@
         to="/experience"
         v-if="$route.fullPath !== '/'"
         disabled="true"
-        class="button5"
+        class="green"
       >
         Experience
       </router-link>
-      <footer-bar />
     </div>
     <router-view />
+    <div align="right">
+      <footer-bar />
+    </div>
   </div>
 </template>
 
@@ -45,21 +47,31 @@ import FooterBar from "@/components/FooterBar";
 export default {
   name: "App",
   components: {
-    FooterBar
+    "footer-bar": FooterBar
   }
 };
 </script>
 <style>
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
 #app {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c2f31;
+  text-align: left;
+  padding: .25in;
+  color: #c0c2c4;
+  background-color: #2c2f31;
 }
 
 #nav {
   padding: 30px;
+  height: 75%;
+  width: auto;
 }
 
 #nav a {
@@ -76,9 +88,9 @@ img {
   /* Blue */
 
   background-color: #008cba;
-  border: double;
+  border: solid;
   color: white;
-  padding: 20px 40px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -88,7 +100,37 @@ img {
   border-radius: 12px;
 }
 
-.button2 {
+.blue {
+  /* Blue */
+
+  background-color: #005eca;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.gold {
+  background-color: #d4b114; /* Gold */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  }
+
+.green {
   background-color: #4CAF50; /* Green */
   border: none;
   color: white;
@@ -102,7 +144,7 @@ img {
   border-radius: 12px;
   } 
 
-.button3 { /* Orange */ 
+.orange { /* Orange */ 
   background-color: #e74f21; 
   border: none;
   color: white;
@@ -116,7 +158,7 @@ img {
   border-radius: 12px;
   } 
 
-.button4 { /* Gray */ 
+.gray { /* Gray */ 
   background-color: #e7e7e7; 
   color: black; 
   border: none;
@@ -130,7 +172,7 @@ img {
   border-radius: 12px;
   } 
 
-.button5 { /* Black */
+.darkgray { /* dark gray */
   background-color: #555555; 
   color: white; 
   border: none;
@@ -144,7 +186,7 @@ img {
   border-radius: 12px;
   } 
 
-  .button6 { /* Yellow */
+  .yellow { /* Yellow */
   background-color: #ffd000; 
   color: black; 
   border: none;
@@ -158,11 +200,11 @@ img {
   border-radius: 12px;
   } 
 
-  .button7 { /* Red */
+  .red { /* Red */
   background-color: #ff0000; 
   color: rgb(255, 255, 255); 
   border: none;
-  padding: 10px 25px;
+  padding: 2px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -172,7 +214,7 @@ img {
   border-radius: 12px;
   }
 
-  .button8 { /* Black */
+  .black { /* Black */
   background-color: #000000; 
   color: rgb(255, 255, 255); 
   border: none;

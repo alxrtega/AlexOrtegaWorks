@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Display msg="Alex Ortega Works" />
+    <Display />
   </div>
 </template>
 

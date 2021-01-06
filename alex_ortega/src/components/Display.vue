@@ -1,35 +1,58 @@
 <template>
   <div class="hello">
-    <img alt="app logo" src="../assets/ao.png" />
-    <h1>{{ msg }}</h1>
+    <div align="center">
+      <img alt="app logo" src="../assets/ao.png" />
+    </div>
+    <h1>Hello, I am<br>Alex Ortega</h1>
     <p>
-      This web app was created to showcase my IT and software development
-      skills.<br /><br />
-      Checkout my simple app as I will informally present myself!
+      I am a driven individual that carries experience and skills to positively impact other individuals, teams
+      and the enviroment around me. This portfolio will showcase the skills that I have learned throughout
+      my career as an IT professional and as a Computer Science student. Checkout my portfolio as I will informally present myself.
     </p>
+    Thank you!<br>
     <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a href="/academia" class="button4">
+        <a href="/academia" class="blue">
           Academia
         </a>
       </li>
       <li>
-        <a href="/bio" class="button6">
+        <a href="/bio" class="yellow">
           Bio
         </a>
       </li>
       <li>
-        <a href="/experience" class="button5">
+        <a href="/experience" class="green">
           Experience
         </a>
       </li>
       <li>
-        <a href="/test" class="button8">
+        <a href="/test" class="black">
           Testing
         </a>
       </li>
     </ul>
+    <h3>Contact Me</h3>
+    <ul>
+      <li>
+        <button 
+          class="orange"
+          @click="$refs.modalName0.openModal()"
+        >
+          Contact Card
+        </button>
+      </li>
+    </ul>
+    <modal ref="modalName0">
+      <template v-slot:header>
+        <p>Name: Alex Ortega</p>
+        <p>Email: alx_ortega@outlook.com</p>
+        <div>
+          <button class="button red" @click="$refs.modalName0.closeModal()">Close</button>
+        </div>
+      </template>
+    </modal>
     <h3>Source Code</h3>
     <ul>
       <li>
@@ -37,22 +60,9 @@
           href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite"
           target="_blank"
           rel="noopener"
-          class="button2"
+          class="dark gray"
         >
           GitHub
-        </a>
-      </li>
-    </ul>
-    <h3>Contact Me</h3>
-    <ul>
-      <li>
-        <a
-          href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite"
-          target="_blank"
-          rel="noopener"
-          class="button3"
-        >
-          Contact Card
         </a>
       </li>
     </ul>
@@ -60,8 +70,10 @@
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 export default {
   name: "Display",
+  components: { Modal },
   props: {
     msg: String
   }
@@ -70,6 +82,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+  font-weight: bold;
+  font-size: xx-large;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -80,5 +96,12 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+div {
+  max-width: 600px;
+  min-width: 100px;
+}
+img {
+  border-radius: 10%;
 }
 </style>
