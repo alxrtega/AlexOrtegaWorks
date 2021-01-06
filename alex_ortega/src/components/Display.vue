@@ -7,9 +7,8 @@
     <p>
       I am a driven individual that carries experience and skills to positively impact other individuals, teams
       and the enviroment around me. This portfolio will showcase the skills that I have learned throughout
-      my career as an IT professional and as a Computer Science student. Checkout my portfolio as I will informally present myself.
+      my career as an IT professional and as a Computer Science student. Checkout my portfolio as I will informally present myself!
     </p>
-    Thank you!<br>
     <h3>Explore more about me...</h3>
     <ul>
       <li>
