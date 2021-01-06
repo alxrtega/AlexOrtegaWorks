@@ -1,40 +1,15 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link
-        to="/"
-        v-if="$route.fullPath !== '/'"
-        disabled="true"
-        class="homeButton"
-      >
-        Home</router-link
-      >
-      <router-link
-        to="academia/"
-        v-if="$route.fullPath !== '/'"
-        disabled="true"
-        class="blue"
-      >
-        Academia
-      </router-link>
-      <router-link
-        to="/bio"
-        v-if="$route.fullPath !== '/'"
-        disabled="true"
-        class="yellow"
-      >
-        Bio
-      </router-link>
-      <router-link
-        to="/experience"
-        v-if="$route.fullPath !== '/'"
-        disabled="true"
-        class="green"
-      >
-        Experience
-      </router-link>
+  <div id="app" class="full-height">
+    <div v-if="$route.fullPath !== '/home'" class="topnav">
+      <a class="homeButton" href="/home">Home</a>
+      <a href="academia">Academia</a>
+      <a href="bio">Bio</a>
+      <a href="experience">Experience</a>
     </div>
-    <router-view />
+    <br /> 
+    <vue-page-transition name="overlay-up">
+      <router-view/>
+    </vue-page-transition>
     <div align="right">
       <footer-bar />
     </div>
@@ -42,7 +17,10 @@
 </template>
 
 <script>
+import Vue from "vue"
+import VuePageTransition from "vue-page-transition"
 import FooterBar from "@/components/FooterBar";
+Vue.use(VuePageTransition)
 
 export default {
   name: "App",
@@ -52,10 +30,48 @@ export default {
 };
 </script>
 <style>
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2c2f31;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 50px;
+  width: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c0c2c4;
+  color: #2c2f31;
+  transform: scale(1.10);
+}
+
+/* Add a color to the active/current link */
+.topnav a.homeButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
 body {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+  background: #2c2f31;
 }
 
 #app {
@@ -82,22 +98,7 @@ body {
 img {
   width: 250px;
   height: auto;
-}
-
-.homeButton {
-  /* Blue */
-
-  background-color: #008cba;
-  border: solid;
-  color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 22px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
+  border-radius: 10%;
 }
 
 .blue {

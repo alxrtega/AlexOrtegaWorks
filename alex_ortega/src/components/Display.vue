@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello ">
     <div align="center">
       <img alt="app logo" src="../assets/ao.png" />
     </div>
@@ -13,31 +13,35 @@
     <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a href="/academia" class="blue">
+        <a href="/academia" class="green">
           Academia
         </a>
       </li>
+      <br>
       <li>
-        <a href="/bio" class="yellow">
+        <a href="/bio" class="green">
           Bio
         </a>
       </li>
+      <br>
       <li>
         <a href="/experience" class="green">
           Experience
         </a>
       </li>
+      <br>
       <li>
         <a href="/test" class="black">
           Testing
         </a>
       </li>
+      <br>
     </ul>
     <h3>Contact Me</h3>
     <ul>
       <li>
         <button 
-          class="orange"
+          class="blue"
           @click="$refs.modalName0.openModal()"
         >
           Contact Card
@@ -49,7 +53,7 @@
         <p>Name: Alex Ortega</p>
         <p>Email: alx_ortega@outlook.com</p>
         <div>
-          <button class="button red" @click="$refs.modalName0.closeModal()">Close</button>
+          <button class="button red" @click="$refs.modalName0.closeModal()">close</button>
         </div>
       </template>
     </modal>
@@ -84,7 +88,10 @@ export default {
 <style scoped>
 h1 {
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 40px;
+}
+h2 {
+  font-size: 24px;
 }
 h3 {
   margin: 40px 0 0;
@@ -100,8 +107,5 @@ li {
 div {
   max-width: 600px;
   min-width: 100px;
-}
-img {
-  border-radius: 10%;
 }
 </style>
