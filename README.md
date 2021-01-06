@@ -1,4 +1,4 @@
-# AlexOrtegaPersonalWebsite
+# AlexOrtegaWorks
 Personal website to showcase experience and skills. Site will be made using VueJS.
 
 First clone this repository.
