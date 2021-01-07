@@ -3,116 +3,108 @@
     <hero-bar>
       <h1>Experience</h1>
     </hero-bar>
-    <p></p>
-    <h1>Testing paragragh h1. la la la blah!</h1>
+    <h2>Fred Loya Insurance</h2>
+    <hr width="300px" align="left" />
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+      asperiores aut quam dolores repudiandae est omnis maiores recusandae
+      dignissimos commodi, enim assumenda, laboriosam, aspernatur odio voluptas
+      mollitia explicabo illum debitis.
+    </p>
+    <dl>
+      <dt>
+        <h3>Helpdesk</h3>
+      </dt>
+
+      <dd>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
+          nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
+          totam amet.
+        </p>
+      </dd>
+
+      <dt>
+        <h3>Repair Unit Technician</h3>
+      </dt>
+
+      <dd>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
+          nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
+          totam amet.
+        </p>
+      </dd>
+
+      <dt>
+        <h3>Laptop Repair Technician</h3>
+      </dt>
+
+      <dd>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
+          nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
+          totam amet.
+        </p>
+      </dd>
+
+      <dt>
+        <h3>DVR Administrator</h3>
+      </dt>
+
+      <dd>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+          deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
+          nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
+          totam amet.
+        </p>
+      </dd>
+    </dl>
+
+    <h2>University of Texas at El Paso Capstone Project</h2>
+    <hr width="300px" align="left" />
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque
+      velit ullam aliquam rem quis iure provident autem. Laborum ducimus
+      deleniti excepturi ratione necessitatibus dolorem officiis quaerat officia
+      odit.
+    </p>
+
+    <h2>Fred Loya Insurance Software Engineering Internship</h2>
+    <hr width="300px" align="left" />
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, nostrum
+      rem atque sint distinctio sequi, quo suscipit quaerat amet est expedita
+      asperiores error facere aspernatur minima aliquam voluptatem libero odit!
+    </p>
+
+    <h2>Other Interesting Skils</h2>
     <hr width="300px" align="left" />
 
     <p></p>
-    <h2>Testing paragraph h2. la la la blah!</h2>
-    <hr width="300px" align="left" />
-
-    <p></p>
-    <h3>Testing paragraph h3. la la la blah!</h3>
-    <hr width="300px" align="left" />
-
-    Floating text...<br />
-
-    <button class="button gold" @click="$refs.modalName0.openModal()">
-      Gold</button
-    ><br />
-    <modal ref="modalName0">
-      <template v-slot:header>
-        <p>Test00</p>
-        <p>Test01</p>
-        <div>
-          <button class="button red" @click="$refs.modalName0.closeModal()">
-            Close
-          </button>
-        </div>
-      </template>
-    </modal>
-
-    <button class="button green" @click="$refs.modalName1.openModal()">
-      Green</button
-    ><br />
-    <modal ref="modalName1">
-      <template v-slot:header>
-        <p>Test10</p>
-        <p>Test11</p>
-        <div>
-          <button class="button red" @click="$refs.modalName1.closeModal()">
-            Close
-          </button>
-        </div>
-      </template>
-    </modal>
-
-    <button class="button orange" @click="$refs.modalName2.openModal()">
-      Orange</button
-    ><br />
-    <modal ref="modalName2">
-      <template v-slot:header>
-        <p>Test20</p>
-        <p>Test21</p>
-        <div>
-          <button class="button red" @click="$refs.modalName2.closeModal()">
-            Close
-          </button>
-        </div>
-      </template>
-    </modal>
-
-    <button class="button gray" @click="$refs.modalName3.openModal()">
-      Gray</button
-    ><br />
-    <modal ref="modalName3">
-      <template v-slot:header>
-        <p>Test30</p>
-        <p>Test31</p>
-        <div>
-          <button class="button red" @click="$refs.modalName3.closeModal()">
-            Close
-          </button>
-        </div>
-      </template>
-    </modal>
-
-    <button class="button black" @click="$refs.modalName4.openModal()">
-      Black</button
-    ><br />
-    <modal ref="modalName4">
-      <template v-slot:header>
-        <p>Test40</p>
-        <p>Test41</p>
-        <div>
-          <button class="button red" @click="$refs.modalName4.closeModal()">
-            Close
-          </button>
-        </div>
-      </template>
-    </modal>
-
-    <button class="button red" @click="$refs.modalName5.openModal()">Red</button
-    ><br />
-    <modal ref="modalName5">
-      <template v-slot:header>
-        <p>Test50</p>
-        <p>Test51</p>
-        <div>
-          <button class="button red" @click="$refs.modalName5.closeModal()">
-            Close
-          </button>
-        </div>
-      </template>
-    </modal>
+    <dl>
+      <dt>Skills</dt>
+      <dd>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+        blanditiis! Eaque in alias culpa animi numquam natus quo dolorum ut
+        quibusdam nisi! Provident ad consequatur numquam maiores vero minus
+        libero.
+      </dd>
+    </dl>
   </div>
 </template>
 
 <script>
-import Modal from "@/components/Modal.vue";
 import HeroBar from "@/components/HeroBar";
 export default {
-  components: { Modal, HeroBar },
+  components: { HeroBar },
   computed: {
     heroRouterLinkTo() {
       return "/";
@@ -123,3 +115,10 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+div {
+  max-width: 600px;
+  min-width: 100px;
+}
+</style>
