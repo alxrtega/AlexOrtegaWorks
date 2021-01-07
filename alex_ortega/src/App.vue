@@ -10,7 +10,7 @@
     <vue-page-transition name="overlay-up">
       <router-view />
     </vue-page-transition>
-    <div align="right">
+    <div id="bottomPage" align="right">
       <footer-bar />
     </div>
   </div>
@@ -63,9 +63,12 @@ export default {
 }
 
 body {
-  margin: 0%;
-  width: 100%;
-  height: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: 0;
 }
 
 .full-height {
