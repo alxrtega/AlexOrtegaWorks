@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="full-height">
+  <div id="app">
     <div v-if="$route.fullPath !== '/home'" class="topnav">
       <a class="homeButton" href="/home">Home</a>
       <a href="academia">Academia</a>
@@ -32,7 +32,7 @@ export default {
 <style>
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #2c2f31;
+  background-color: white;
   overflow: hidden;
   border-radius: 15px;
   height: 50px;
@@ -42,7 +42,7 @@ export default {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #2c2f31;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -63,17 +63,11 @@ export default {
 }
 
 body {
-  position: fixed;
   left: 0px;
   right: 0px;
   bottom: 0px;
   top: 0px;
-  margin: 0;
-}
-
-.full-height {
-  height: 100%;
-  background: #2c2f31;
+  margin: 0 auto;
 }
 
 #app {
@@ -82,8 +76,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   padding: 0.25in;
-  color: #c0c2c4;
-  background-color: #2c2f31;
+  color: #2c2f31;
+  background-color: white;
 }
 
 #nav {
@@ -164,7 +158,7 @@ img {
 
 .gray {
   /* Gray */
-  background-color: #e7e7e7;
+  background-color: #cfcdcd;
   color: black;
   border: none;
   padding: 10px 25px;
