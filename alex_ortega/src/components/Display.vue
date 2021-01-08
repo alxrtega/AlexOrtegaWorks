@@ -1,10 +1,10 @@
 <template>
-  <div class="hello">
+  <div>
     <div align="center">
       <img alt="app logo" src="../assets/ao.png" />
     </div>
     <h1>Hello, I am<br />Alex Ortega</h1>
-    <p>
+    <p align="left">
       I am a driven individual that carries experience and skills to positively
       impact other individuals, teams and the enviroment around me. This
       portfolio will showcase the skills that I have learned throughout my
@@ -14,26 +14,22 @@
     <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a href="/academia" class="green"> Academia </a>
+        <a href="/academia" class="blue"> Academia </a>
       </li>
       <br />
       <li>
-        <a href="/bio" class="green"> Bio </a>
+        <a href="/bio" class="blue"> Bio </a>
       </li>
       <br />
       <li>
-        <a href="/experience" class="green"> Experience </a>
-      </li>
-      <br />
-      <li>
-        <a href="/test" class="black"> Testing </a>
+        <a href="/experience" class="blue"> Experience </a>
       </li>
       <br />
     </ul>
     <h3>Contact Me</h3>
     <ul>
       <li>
-        <button class="blue" @click="$refs.modalName0.openModal()">
+        <button class="green" @click="$refs.modalName0.openModal()">
           Contact Card
         </button>
       </li>

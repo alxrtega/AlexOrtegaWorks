@@ -3,12 +3,12 @@
     <hero-bar>
       <h1>Bio</h1>
     </hero-bar>
-    <div align="left">
+    <div align="center">
       <img alt="app logo" src="../assets/daffyDuck.png" />
     </div>
     <h2>Alex Ortega</h2>
-    <hr width="300px" align="left" />
-    <p>
+    <hr width="300px" align="center" />
+    <p align="left">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est
       assumenda ipsam nobis accusantium aperiam corrupti, ratione, nulla labore
       deleniti repellat nemo officia, nostrum doloribus cumque illum aliquam
@@ -33,6 +33,10 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 60px;
+}
+
 div {
   max-width: 600px;
   min-width: 100px;

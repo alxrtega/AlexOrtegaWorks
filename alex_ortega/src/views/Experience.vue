@@ -4,9 +4,9 @@
       <h1>Experience</h1>
     </hero-bar>
     <h2>Fred Loya Insurance</h2>
-    <hr width="300px" align="left" />
+    <hr width="300px" align="center" />
 
-    <p>
+    <p align="left">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
       asperiores aut quam dolores repudiandae est omnis maiores recusandae
       dignissimos commodi, enim assumenda, laboriosam, aspernatur odio voluptas
@@ -18,7 +18,7 @@
       </dt>
 
       <dd>
-        <p>
+        <p align="left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
           deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
           nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
@@ -31,7 +31,7 @@
       </dt>
 
       <dd>
-        <p>
+        <p align="left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
           deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
           nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
@@ -44,7 +44,7 @@
       </dt>
 
       <dd>
-        <p>
+        <p align="left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
           deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
           nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
@@ -57,7 +57,7 @@
       </dt>
 
       <dd>
-        <p>
+        <p align="left">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
           deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
           nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
@@ -67,9 +67,9 @@
     </dl>
 
     <h2>University of Texas at El Paso Capstone Project</h2>
-    <hr width="300px" align="left" />
+    <hr width="300px" align="center" />
 
-    <p>
+    <p align="left">
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque
       velit ullam aliquam rem quis iure provident autem. Laborum ducimus
       deleniti excepturi ratione necessitatibus dolorem officiis quaerat officia
@@ -77,25 +77,27 @@
     </p>
 
     <h2>Fred Loya Insurance Software Engineering Internship</h2>
-    <hr width="300px" align="left" />
+    <hr width="300px" align="center" />
 
-    <p>
+    <p align="left">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, nostrum
       rem atque sint distinctio sequi, quo suscipit quaerat amet est expedita
       asperiores error facere aspernatur minima aliquam voluptatem libero odit!
     </p>
 
     <h2>Other Interesting Skils</h2>
-    <hr width="300px" align="left" />
+    <hr width="300px" align="center" />
 
     <p></p>
     <dl>
-      <dt>Skills</dt>
+      <dt><b>Skills</b></dt>
       <dd>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
-        blanditiis! Eaque in alias culpa animi numquam natus quo dolorum ut
-        quibusdam nisi! Provident ad consequatur numquam maiores vero minus
-        libero.
+        <p align="left">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
+          blanditiis! Eaque in alias culpa animi numquam natus quo dolorum ut
+          quibusdam nisi! Provident ad consequatur numquam maiores vero minus
+          libero.
+        </p>
       </dd>
     </dl>
   </div>
@@ -117,6 +119,10 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 60px;
+}
+
 div {
   max-width: 600px;
   min-width: 100px;

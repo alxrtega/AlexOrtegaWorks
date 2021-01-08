@@ -1,18 +1,25 @@
 <template>
   <div id="app">
-    <div v-if="$route.fullPath !== '/home'" class="topnav">
-      <a class="homeButton" href="/home">Home</a>
-      <a href="academia">Academia</a>
-      <a href="bio">Bio</a>
-      <a href="experience">Experience</a>
+    <div align="center" v-if="$route.fullPath !== '/home'">
+      <img class="pageImg" src="./assets/ao.png" />
+      <hr class="title" width="300px" />
     </div>
-    <br />
+    <div class="navbar" v-if="$route.fullPath !== '/home'">
+      <a href="/home" class="homeButton">Home</a>
+      <a href="/academia">Academia</a>
+      <a href="/bio">Bio</a>
+      <a href="/experience">Experience</a>
+    </div>
     <vue-page-transition name="overlay-up">
-      <router-view />
+      <div align="center">
+        <router-view />
+      </div>
     </vue-page-transition>
     <div id="bottomPage" align="right">
       <footer-bar />
     </div>
+    <br />
+    <br />
   </div>
 </template>
 
@@ -29,37 +36,43 @@ export default {
   }
 };
 </script>
+
 <style>
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: white;
-  overflow: hidden;
-  border-radius: 15px;
-  height: 50px;
-  width: auto;
+hr.title {
+  border: 5px solid #005eca;
+  border-radius: 7px;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #2c2f31;
+  position: fixed; /* Set the navbar to fixed position */
+  left: 0; /* Position the navbar at the left of the page */
+  bottom: 0;
+  width: 100%; /* Full width */
+  border-radius: 15px;
+}
+
+/* Links inside the navbar */
+.navbar a {
   float: left;
-  color: #2c2f31;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #c0c2c4;
-  color: #2c2f31;
-  transform: scale(1.1);
+.navbar a.homeButton {
+  background-color: #005eca;
+  color: #f2f2f2;
 }
 
-/* Add a color to the active/current link */
-.topnav a.homeButton {
-  background-color: #4caf50;
-  color: white;
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #f2f2f2;
+  color: #005eca;
 }
 
 body {
@@ -97,12 +110,18 @@ img {
   border-radius: 10%;
 }
 
+.pageImg {
+  width: 150;
+  height: auto;
+  border-radius: 10%;
+}
+
 .blue {
   /* Blue */
 
   background-color: #005eca;
   border: none;
-  color: white;
+  color: #f2f2f2;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -116,7 +135,7 @@ img {
 .gold {
   background-color: #d4b114; /* Gold */
   border: none;
-  color: white;
+  color: #f2f2f2;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -130,7 +149,7 @@ img {
 .green {
   background-color: #4caf50; /* Green */
   border: none;
-  color: white;
+  color: #f2f2f2;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -145,7 +164,7 @@ img {
   /* Orange */
   background-color: #e74f21;
   border: none;
-  color: white;
+  color: #f2f2f2;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -174,7 +193,7 @@ img {
 .darkgray {
   /* dark gray */
   background-color: #555555;
-  color: white;
+  color: #f2f2f2;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -189,7 +208,7 @@ img {
 .yellow {
   /* Yellow */
   background-color: #ffd000;
-  color: black;
+  color: #f2f2f2;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -204,7 +223,7 @@ img {
 .red {
   /* Red */
   background-color: #ff0000;
-  color: rgb(255, 255, 255);
+  color: #f2f2f2;
   border: none;
   padding: 2px 5px;
   text-align: center;
@@ -219,7 +238,7 @@ img {
 .black {
   /* Black */
   background-color: #000000;
-  color: rgb(255, 255, 255);
+  color: #f2f2f2;
   border: none;
   padding: 10px 25px;
   text-align: center;
