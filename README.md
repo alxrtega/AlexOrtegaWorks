@@ -2,7 +2,7 @@
 
 <h1 align="center"> 
   <br>
-  <img src="/alex_ortega/assets/ao.png" alt="VUE Logo" width="200"></a>
+  <img src="ao.png" alt="VUE Logo" width="200"></a>
   <br>
   Alex Ortega Works
   <br>
