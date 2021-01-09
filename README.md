@@ -1,5 +1,13 @@
 # AlexOrtegaWorks
 
+<h1 align="center"> 
+  <br>
+  <img src="/alex_ortega/assets/ao.png" alt="VUE Logo" width="200"></a>
+  <br>
+  Alex Ortega Works
+  <br>
+  </h1>
+
 ![App Logo](https://github.com/alxrtega/AlexOrtegaWorks/tree/main/alex_ortega/src/assets/ao.png)
 
 This portfolio is designed to showcase my experience and skills. The web app will be made using the VueJS framework.
