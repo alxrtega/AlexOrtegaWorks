@@ -1,9 +1,9 @@
 # AlexOrtegaWorks
 
-![App Logo](/alex_ortega/assets/ao.png)
+![App Logo](https://github.com/alxrtega/AlexOrtegaWorks/tree/main/alex_ortega/src/assets/ao.png)
 
 This portfolio is designed to showcase my experience and skills. The web app will be made using the VueJS framework.
-![VUE Logo](/alex_ortega/assets/logo.png)
+![VUE Logo](https://github.com/alxrtega/AlexOrtegaWorks/tree/main/alex_ortega/src/assets/logo.png)
 
 Prerequisite: have NodeJS installed with `npm` enabled.
 
