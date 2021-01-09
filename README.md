@@ -1,10 +1,29 @@
 # AlexOrtegaWorks
-This portfolio was designed to showcase my experience and skills. Site will be made using the VueJS framework.
 
-First clone this repository.
+![App Logo](/alex_ortega/assets/ao.png)
 
-To run this repository, npm will be needed. 
+This portfolio is designed to showcase my experience and skills. The web app will be made using the VueJS framework.
+![VUE Logo](/alex_ortega/assets/logo.png)
 
-Inside the alex_ortega folder the project will be found. 
+Prerequisite: have NodeJS installed with `npm` enabled.
 
-Web App will be found in http://localhost:8080/home
+Steps to run project: 
+1. Clone this repository.
+2. Navigate to the `./alex_ortega` folder.
+3. To run this repository, npm will be needed. 
+4. Inside the `alex_ortega` folder, run `npm install` to compile the source code for the project.
+5. Once the project compiles, in the same folder run `npm run serve` to run the project locally. 
+6. If the command from step 5 is successful, two links will be seen. Local and Network IPs will be provided. 
+
+## Project setup
+### Compiles project
+```
+npm install
+```
+
+### Runs project locally
+```
+npm run serve
+```
+
+
