@@ -10,10 +10,10 @@ Prerequisite: have NodeJS installed with `npm` enabled.
 
 Steps to run project: 
 1. Clone this repository.
-2. Navigate to the `./alex_ortega` folder.
+2. In your terminal, navigate to the `/alex_ortega` folder.
 3. Inside the `alex_ortega` folder, run `npm install` to compile the source code for the project.
 4. Once the project compiles, in the same folder run `npm run serve` to run the project locally. 
-5. If the command from step 5 is successful, two links will be seen. Local and Network IPs will be provided. 
+5. If the command from step 4 is successful, two links will be seen. Local and Network IPs will be provided. 
 
 ## Project setup
 ### Compiles project
