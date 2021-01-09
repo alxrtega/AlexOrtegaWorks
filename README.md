@@ -1,6 +1,6 @@
 <h1 align="center"> 
   <br>
-    <img src="/alex_ortega/src/assets/logo.png" alt="AO Logo" width="200"></a>
+    <img src="/alex_ortega/src/assets/ao.png" alt="AO Logo" width="200"></a>
   <br>
     Alex Ortega Works
   <br>
@@ -30,4 +30,9 @@ npm run serve
 ```
 npm run build
 ```
+
+<h1 align="center"> 
+  <br>
+    <img src="/alex_ortega/src/assets/logo.png" alt="AO Logo" width="100"></a>
+</h1>
 
