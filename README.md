@@ -2,16 +2,11 @@
 
 <h1 align="center"> 
   <br>
-  <img src="ao.png" alt="VUE Logo" width="200"></a>
+  <img src="/alex_ortega/public/assets/ao.png" alt="AO Logo" width="200"></a>
   <br>
   Alex Ortega Works
   <br>
   </h1>
-
-![App Logo](https://github.com/alxrtega/AlexOrtegaWorks/tree/main/alex_ortega/src/assets/ao.png)
-
-This portfolio is designed to showcase my experience and skills. The web app will be made using the VueJS framework.
-![VUE Logo](https://github.com/alxrtega/AlexOrtegaWorks/tree/main/alex_ortega/src/assets/logo.png)
 
 Prerequisite: have NodeJS installed with `npm` enabled.
 
