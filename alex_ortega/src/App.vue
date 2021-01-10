@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <div align="center" v-if="$route.fullPath !== '/home'">
+    <div align="center" v-if="$route.fullPath !== '/'">
       <img class="pageImg" src="./assets/ao.png" />
       <hr class="title" width="300px" />
     </div>
-    <div class="navbar" v-if="$route.fullPath !== '/home'">
-      <a href="/home" class="homeButton">Home</a>
+    <div class="navbar" v-if="$route.fullPath !== '/'">
+      <a href="/" class="homeButton">Home</a>
       <a href="/academia">Academia</a>
       <a href="/bio">Bio</a>
       <a href="/experience">Experience</a>
