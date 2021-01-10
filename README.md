@@ -15,9 +15,9 @@ Steps to run project:
 4. Once the project compiles, in the same folder run `npm run serve` to run the project locally. 
 5. If the command from step 4 is successful, two links will be seen. Local and Network IPs will be provided. 
 ```
-The local IP can be opened in your computer, it will be the localhost.
+The local IP can be opened in the computer, it will be the localhost.
 The Network IP is to access the web app from any other device that is in the same network 
-as your machine running the project.
+as the machine running the project.
 ```
 
 ## Project setup
