@@ -36,8 +36,8 @@
     </ul>
     <modal ref="modalName0">
       <template v-slot:header>
-        <p>Name: Alex Ortega</p>
-        <p>Email: alx_ortega@outlook.com</p>
+        <p align="left">Name: Alex Ortega</p>
+        <p align="left">Email: alx_ortega@outlook.com</p>
         <div>
           <button class="button red" @click="$refs.modalName0.closeModal()">
             close
