@@ -2,10 +2,10 @@
   <div>
     <hero-bar>
       <h1>Experience</h1>
+      <hr class="title" width="300px" />
     </hero-bar>
     <h2>Fred Loya Insurance</h2>
     <hr width="300px" align="center" />
-
     <p align="left">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
       asperiores aut quam dolores repudiandae est omnis maiores recusandae
@@ -90,7 +90,7 @@
 
     <p></p>
     <dl>
-      <dt><b>Skills</b></dt>
+      <dt><h3>Skills</h3></dt>
       <dd>
         <p align="left">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
@@ -121,6 +121,14 @@ export default {
 <style scoped>
 h1 {
   font-size: 60px;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
 }
 
 div {

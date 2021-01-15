@@ -2,6 +2,7 @@
   <div>
     <hero-bar>
       <h1>Bio</h1>
+      <hr class="title" width="300px" />
     </hero-bar>
     <div align="center">
       <img alt="app logo" src="../assets/daffyDuck.png" />

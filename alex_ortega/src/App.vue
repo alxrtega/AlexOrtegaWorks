@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div align="center" v-if="$route.fullPath !== '/'">
+    <div align="center" v-if="$route.fullPath === '/'">
       <img class="pageImg" src="./assets/ao.png" />
       <hr class="title" width="300px" />
     </div>
@@ -10,7 +10,7 @@
       <router-link to="bio">Bio</router-link>
       <router-link to="experience">Experience</router-link>
     </div>
-    <vue-page-transition name="overlay-up">
+    <vue-page-transition name="fade-in-down">
       <div align="center">
         <router-view />
       </div>

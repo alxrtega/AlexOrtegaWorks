@@ -2,6 +2,7 @@
   <div>
     <hero-bar>
       <h1>Academia</h1>
+      <hr class="title" width="300px" />
     </hero-bar>
     <h2>The University of Texas at El Paso</h2>
     <hr width="300px" align="center" />
@@ -86,6 +87,10 @@ export default {
 <style scoped>
 h1 {
   font-size: 60px;
+}
+
+li {
+  text-align: left;
 }
 
 div {

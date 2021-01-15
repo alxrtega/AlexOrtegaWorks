@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div align="center">
-      <img alt="app logo" src="../assets/ao.png" />
-    </div>
     <h1>Hello, I am<br />Alex Ortega</h1>
     <p align="left">
       I am a driven individual that carries experience and skills to positively
