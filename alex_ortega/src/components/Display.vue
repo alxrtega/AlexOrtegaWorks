@@ -14,15 +14,15 @@
     <h3>Explore more about me...</h3>
     <ul>
       <li>
-        <a href="/academia" class="blue"> Academia </a>
+        <router-link to="academia" class="blue"> Academia </router-link>
       </li>
       <br />
       <li>
-        <a href="/bio" class="blue"> Bio </a>
+        <router-link to="bio" class="blue"> Bio </router-link>
       </li>
       <br />
       <li>
-        <a href="/experience" class="blue"> Experience </a>
+        <router-link to="experience" class="blue"> Experience </router-link>
       </li>
       <br />
     </ul>

@@ -5,10 +5,10 @@
       <hr class="title" width="300px" />
     </div>
     <div class="navbar" v-if="$route.fullPath !== '/'">
-      <a href="/" class="homeButton">Home</a>
-      <a href="/academia">Academia</a>
-      <a href="/bio">Bio</a>
-      <a href="/experience">Experience</a>
+      <router-link to="/" class="homeButton">Home</router-link>
+      <router-link to="academia">Academia</router-link>
+      <router-link to="bio">Bio</router-link>
+      <router-link to="experience">Experience</router-link>
     </div>
     <vue-page-transition name="overlay-up">
       <div align="center">
