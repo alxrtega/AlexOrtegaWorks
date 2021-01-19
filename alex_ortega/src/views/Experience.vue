@@ -27,6 +27,30 @@
     </div>
     <br />
     <div class="box">
+      <h2>University of Texas at El Paso<br />Capstone Project</h2>
+      <hr width="300px" align="center" />
+
+      <p align="left">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque
+        velit ullam aliquam rem quis iure provident autem. Laborum ducimus
+        deleniti excepturi ratione necessitatibus dolorem officiis quaerat
+        officia odit.
+      </p>
+    </div>
+    <br />
+    <div class="box">
+      <h2>Fred Loya Insurance<br />Software Engineering Internship</h2>
+      <hr width="300px" align="center" />
+
+      <p align="left">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+        nostrum rem atque sint distinctio sequi, quo suscipit quaerat amet est
+        expedita asperiores error facere aspernatur minima aliquam voluptatem
+        libero odit!
+      </p>
+    </div>
+    <br />
+    <div class="box">
       <h2>Fred Loya Insurance</h2>
       <hr width="300px" align="center" />
       <p align="left">
@@ -101,30 +125,6 @@
           </p>
         </dd>
       </dl>
-    </div>
-    <br />
-    <div class="box">
-      <h2>University of Texas at El Paso<br />Capstone Project</h2>
-      <hr width="300px" align="center" />
-
-      <p align="left">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque
-        velit ullam aliquam rem quis iure provident autem. Laborum ducimus
-        deleniti excepturi ratione necessitatibus dolorem officiis quaerat
-        officia odit.
-      </p>
-    </div>
-    <br />
-    <div class="box">
-      <h2>Fred Loya Insurance<br />Software Engineering Internship</h2>
-      <hr width="300px" align="center" />
-
-      <p align="left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-        nostrum rem atque sint distinctio sequi, quo suscipit quaerat amet est
-        expedita asperiores error facere aspernatur minima aliquam voluptatem
-        libero odit!
-      </p>
     </div>
     <br />
     <div class="box">
