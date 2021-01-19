@@ -41,20 +41,18 @@ export default {
 hr.title {
   border: 5px solid #005eca;
   border-radius: 7px;
+  box-shadow: 2px 2px 4px #2c2f31;
 }
 
-/* The navigation bar */
 .navbar {
   overflow: hidden;
   background-color: #2c2f31;
-  position: fixed; /* Set the navbar to fixed position */
-  left: 0; /* Position the navbar at the left of the page */
+  position: fixed;
+  left: 0;
   bottom: 0;
-  width: 100%; /* Full width */
-  border-radius: 15px;
+  width: 100%;
 }
 
-/* Links inside the navbar */
 .navbar a {
   float: left;
   display: block;
@@ -69,7 +67,6 @@ hr.title {
   color: #f2f2f2;
 }
 
-/* Change background on mouse-over */
 .navbar a:hover {
   background: #f2f2f2;
   color: #005eca;
@@ -104,10 +101,33 @@ body {
   font-size: large;
 }
 
+h1 {
+  font-size: 50px;
+  text-shadow: 3px 3px 5px #2c2f31;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+}
+
+h3.home {
+  text-align: left;
+  text-shadow: 3px 3px 5px #2c2f31;
+}
+
+li {
+  text-align: left;
+}
+
 img {
   width: 250px;
   height: auto;
-  border-radius: 10%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px #2c2f31;
 }
 
 .pageImg {
@@ -116,9 +136,15 @@ img {
   border-radius: 10%;
 }
 
-.blue {
-  /* Blue */
+.box {
+  max-width: 600px;
+  min-width: 100px;
+  box-shadow: 2px 2px 4px #2c2f31;
+  padding: 10px;
+  border-radius: 12px;
+}
 
+.blue {
   background-color: #005eca;
   border: none;
   color: #f2f2f2;
@@ -130,24 +156,11 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-}
-
-.gold {
-  background-color: #d4b114; /* Gold */
-  border: none;
-  color: #f2f2f2;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
+  box-shadow: 2px 2px 4px #2c2f31;
 }
 
 .green {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   border: none;
   color: #f2f2f2;
   padding: 10px 25px;
@@ -158,27 +171,12 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-}
-
-.orange {
-  /* Orange */
-  background-color: #e74f21;
-  border: none;
-  color: #f2f2f2;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
+  box-shadow: 2px 2px 4px #2c2f31;
 }
 
 .gray {
-  /* Gray */
   background-color: #cfcdcd;
-  color: black;
+  color: #2c2f31;
   border: none;
   padding: 10px 25px;
   text-align: center;
@@ -188,40 +186,10 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-}
-
-.darkgray {
-  /* dark gray */
-  background-color: #555555;
-  color: #f2f2f2;
-  border: none;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-}
-
-.yellow {
-  /* Yellow */
-  background-color: #ffd000;
-  color: #f2f2f2;
-  border: none;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
+  box-shadow: 2px 2px 4px #2c2f31;
 }
 
 .red {
-  /* Red */
   background-color: #ff0000;
   color: #f2f2f2;
   border: none;
@@ -233,20 +201,6 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-}
-
-.black {
-  /* Black */
-  background-color: #000000;
-  color: #f2f2f2;
-  border: none;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
+  box-shadow: 2px 2px 4px #2c2f31;
 }
 </style>
