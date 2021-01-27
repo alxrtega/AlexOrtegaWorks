@@ -31,11 +31,6 @@ npm install
 npm run serve
 ```
 
-### **this will not be needed to run project**
-```
-npm run build
-```
-
 <h1 align="center"> 
   <br>
     <img src="/alex_ortega/src/assets/logo.png" alt="AO Logo" width="75"></a>
