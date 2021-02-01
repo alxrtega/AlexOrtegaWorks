@@ -5,15 +5,29 @@
       <hr class="title" width="300px" />
     </hero-bar>
     <div class="box">
+      To request a resume, please send me an email. My contact information will
+      be found in the Bio page under my Contact Card.
+    </div>
+    <br />
+    <div class="box">
       <h2>Portfolio Website</h2>
       <hr width="300px" align="center" />
 
-      <p align="left">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque
-        velit ullam aliquam rem quis iure provident autem. Laborum ducimus
-        deleniti excepturi ratione necessitatibus dolorem officiis quaerat
-        officia odit.
-      </p>
+      <p align="left"></p>
+      <ul>
+        <li>
+          Single Page Application to build a simple and functional web
+          application<br />
+        </li>
+        <li>
+          Implemented the web application using the progressive Vue Framework
+          and CSS for the frontend<br />
+        </li>
+        <li>
+          Launched web application to a web hosting provider and assigned a
+          relevant domain name<br />
+        </li>
+      </ul>
       <div align="left">
         <a
           href="https://github.com/alxrtega/AlexOrtegaPersonalWebsite"
@@ -21,7 +35,7 @@
           rel="noopener"
           class="dark gray"
         >
-          GitHub
+          Source Code
         </a>
       </div>
     </div>
@@ -30,126 +44,211 @@
       <h2>University of Texas at El Paso<br />Capstone Project</h2>
       <hr width="300px" align="center" />
 
-      <p align="left">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum atque
-        velit ullam aliquam rem quis iure provident autem. Laborum ducimus
-        deleniti excepturi ratione necessitatibus dolorem officiis quaerat
-        officia odit.
-      </p>
+      <p align="left"></p>
+      <ul>
+        <li>
+          Captured the client’s requirements to ensure the correct product was
+          delivered<br />
+        </li>
+        <li>
+          Collaborated in a team of five members to build a web application for
+          the Department of Defense<br />
+        </li>
+        <li>
+          Fulfilled the responsibility of a Systems Architect by verifying and
+          collecting the change request forms<br />
+        </li>
+        <li>
+          Designed and implemented a full stack web application covering the
+          client side and the server side<br />
+        </li>
+        <li>
+          Presented the web application to the clients to verify that the
+          requirements were met<br />
+        </li>
+      </ul>
     </div>
     <br />
     <div class="box">
-      <h2>Fred Loya Insurance<br />Software Engineering Internship</h2>
+      <h2>Fred Loya Insurance<br />Web Developer Internship</h2>
       <hr width="300px" align="center" />
 
-      <p align="left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-        nostrum rem atque sint distinctio sequi, quo suscipit quaerat amet est
-        expedita asperiores error facere aspernatur minima aliquam voluptatem
-        libero odit!
-      </p>
+      <p align="left"></p>
+      <ul>
+        <li>
+          Learned the complete life cycle of claims and understood the
+          requirements of each department<br />
+        </li>
+        <li>
+          Researched Behavior Driven Development in depth and understood the
+          Cucumber Testing Tool<br />
+        </li>
+        <li>
+          Implemented and analyzed rules written in the programming language,
+          Gosu<br />
+        </li>
+      </ul>
     </div>
     <br />
     <div class="box">
       <h2>Fred Loya Insurance</h2>
       <hr width="300px" align="center" />
       <p align="left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        asperiores aut quam dolores repudiandae est omnis maiores recusandae
-        dignissimos commodi, enim assumenda, laboriosam, aspernatur odio
-        voluptas mollitia explicabo illum debitis.
+        I was fortunate enough to start working in the IT department for Fred
+        Loya Insurance at a young age. Throughout my career I was able to learn
+        from many talented individuals and refine my skills as an IT
+        professional. I had the privilege to be part of this department for
+        nearly a decade.
       </p>
-      <dl>
-        <dt>
-          <h3>Helpdesk</h3>
-        </dt>
-
-        <dd>
-          <p align="left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
-            nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
-            totam amet.
-          </p>
-        </dd>
-
-        <dt>
-          <h3>IT Support Technician</h3>
-        </dt>
-
-        <dd>
-          <p align="left">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum unde
-            soluta officiis harum quasi eaque molestiae, quaerat ea commodi
-            incidunt ullam excepturi delectus numquam est fugit laborum quia a
-            deleniti.
-          </p>
-        </dd>
-
-        <dt>
+      <ul>
+        <li>
+          <h3>Helpdesk Technician</h3>
+          <ul>
+            <li>
+              Attend weekly meetings to stay up to date and to discuss pending
+              projects
+            </li>
+            <li>
+              Provide assistance for users in more than 500 offices around the
+              company to ensure that customers received great service without
+              delays
+            </li>
+            <li>
+              Install appropiate software and network printers in the computers
+            </li>
+            <li>Configure new equipment and devices that had arrived</li>
+            <li>
+              Our responsibility was to create and issue tickets that would be
+              escalated to the corresponding department
+            </li>
+            <li>
+              Report network outages to the corresponding ISP and escalate
+              tickets, if possible the equipment would undergo through
+              troubleshooting steps
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>Support Technician</h3>
+          <ul>
+            <li>
+              Verify that equipment in the call centers and offices were
+              properly working and workstations had the correct configuration
+            </li>
+            <li>
+              In some ocassions it was needed for us to travel out of town to
+              aid offices and other call centers
+            </li>
+            <li>
+              Had the opportunity to implement a printer and workstation scheme
+              for the equipment in a new call center
+            </li>
+          </ul>
+        </li>
+        <li>
           <h3>Repair Unit Technician</h3>
-        </dt>
-
-        <dd>
-          <p align="left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
-            nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
-            totam amet.
-          </p>
-        </dd>
-
-        <dt>
+          <ul>
+            <li>
+              Image computers and load the correct programs in the computers
+            </li>
+            <li>
+              Have equipment such as keyboards, computer mice and monitors ready
+              to replace
+            </li>
+            <li>
+              Create shipping labels and ship new equipment for new offices
+            </li>
+            <li>
+              Worked alongside other technicians to deliver equipment in a
+              timely manner
+            </li>
+          </ul>
+        </li>
+        <li>
           <h3>Laptop Repair Technician</h3>
-        </dt>
-
-        <dd>
-          <p align="left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
-            nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
-            totam amet.
-          </p>
-        </dd>
-
-        <dt>
+          <ul>
+            <li>
+              Responsible to maintain laptops in good conditions with the latest
+              software updates and working hardware
+            </li>
+            <li>Troubleshoot laptop issues the users had and find solutions</li>
+            <li>
+              Provide temporary laptops and equipment with the correct software,
+              promptly
+            </li>
+            <li>
+              Keep track of the laptop inventory using the proper scheme through
+              the asset system
+            </li>
+          </ul>
+        </li>
+        <li>
           <h3>DVR Administrator</h3>
-        </dt>
-
-        <dd>
-          <p align="left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            deleniti, nulla incidunt rem at ad reiciendis delectus. Consequatur
-            nobis iusto corrupti esse quaerat nisi, molestias quae unde sapiente
-            totam amet.
-          </p>
-        </dd>
-      </dl>
+          <ul>
+            <li>
+              Footage would be requested by managers with specific times and
+              dates
+            </li>
+            <li>
+              Have the correct footage immediately and delivered in a secure
+              manner
+            </li>
+            <li>
+              Verify that that the survaillance equipment such as the cameras
+              and DVRs were working properly
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
     <br />
     <div class="box">
-      <h2>Other Skils</h2>
+      <h2>Techinical Skills</h2>
       <hr width="300px" align="center" />
-
-      <p></p>
-      <dl>
-        <dt><h3>Skills</h3></dt>
-        <dd>
-          <p align="left">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae,
-            blanditiis! Eaque in alias culpa animi numquam natus quo dolorum ut
-            quibusdam nisi! Provident ad consequatur numquam maiores vero minus
-            libero.
-          </p>
-        </dd>
-      </dl>
+      <div align="left">
+        <button class="button green" @click="$refs.modalName02.openModal()">
+          List of Skills</button
+        ><br />
+        <modal ref="modalName02">
+          <template v-slot:header>
+            <ul>
+              <li>Java (5 years)<br /></li>
+              <li>C (2 years)<br /></li>
+              <li>Python (1 year)<br /></li>
+              <li>Javascript (1 year)<br /></li>
+              <li>GitHub<br /></li>
+              <li>GitBash<br /></li>
+              <li>Visual Studio Code<br /></li>
+              <li>Jira Project Tracking Software<br /></li>
+              <li>FileZilla<br /></li>
+              <li>Cucumber Testing Tool<br /></li>
+            </ul>
+            <div>
+              <button
+                class="button red"
+                @click="$refs.modalName02.closeModal()"
+              >
+                Close
+              </button>
+            </div>
+          </template>
+        </modal>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import Modal from "@/components/Modal.vue";
 import HeroBar from "@/components/HeroBar";
 export default {
-  components: { HeroBar }
+  components: { Modal, HeroBar }
 };
 </script>
+<style scoped>
+.two {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+</style>

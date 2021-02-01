@@ -10,11 +10,11 @@
       <router-link to="bio">Bio</router-link>
       <router-link to="experience">Experience</router-link>
     </div>
-    <vue-page-transition name="fade-in-down">
-      <div align="center">
+    <div align="center">
+      <vue-page-transition name="fade-in-up">
         <router-view />
-      </div>
-    </vue-page-transition>
+      </vue-page-transition>
+    </div>
     <div id="bottomPage" align="right">
       <footer-bar />
     </div>
@@ -81,7 +81,7 @@ body {
 }
 
 #app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Trebuchet MS, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;

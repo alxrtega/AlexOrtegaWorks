@@ -9,20 +9,24 @@
       <hr width="300px" align="center" />
 
       <p align="left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-        asperiores aut quam dolores repudiandae est omnis maiores recusandae
-        dignissimos commodi, enim assumenda, laboriosam, aspernatur odio
-        voluptas mollitia explicabo illum debitis.
+        Pursuing a Bachelor's Degree in Computer Science with a Concentration
+        Software Engineering. The courses have been rewarding thus far. The
+        science behind computer components are complex but understanding the
+        logic and the structuring help understand the design.
       </p>
       <div align="left">
         <button class="button green" @click="$refs.modalName00.openModal()">
-          Courses</button
+          Related Courses</button
         ><br />
         <modal ref="modalName00">
           <template v-slot:header>
             <ul>
-              <li>Test00</li>
-              <li>Test01</li>
+              <li>Software Integration and V&V</li>
+              <li>Software Construction</li>
+              <li>Software Engineering Design and Implementation</li>
+              <li>Advanced Object-Oriented Programming</li>
+              <li>Computer Networks</li>
+              <li>Programming Languages</li>
             </ul>
             <div>
               <button
@@ -42,20 +46,20 @@
       <hr width="300px" align="center" />
 
       <p align="left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-        nostrum rem atque sint distinctio sequi, quo suscipit quaerat amet est
-        expedita asperiores error facere aspernatur minima aliquam voluptatem
-        libero odit!
+        Early in my college career I had begun to grow interest in computer
+        science because I had a great professor that would motivate and insipire
+        through the teachings and assignments.
       </p>
       <div align="left">
         <button class="button green" @click="$refs.modalName01.openModal()">
-          Courses</button
+          Related Courses</button
         ><br />
         <modal ref="modalName01">
           <template v-slot:header>
             <ul>
-              <li>Test00</li>
-              <li>Test01</li>
+              <li>Data Structures and Algorithms</li>
+              <li>Discrete Mathematics</li>
+              <li>Calculus 1 & 2</li>
             </ul>
             <div>
               <button

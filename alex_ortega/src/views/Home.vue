@@ -1,15 +1,12 @@
 <template>
   <div>
     <div align="left">
-      <h1>Hello, I am<br />Alex Ortega!</h1>
+      <h1>I Am Alex,<br />Welcome to my portfolio!</h1>
     </div>
     <div class="box">
       <p align="left">
-        I am a driven individual that carries experience and skills to
-        positively impact other individuals, teams and the enviroment around me.
-        This portfolio will showcase the skills that I have learned throughout
-        my career as an IT professional and as a Computer Science student.
-        Checkout my portfolio as I will informally present myself!
+        I am a problem solver always looking for ways to add value through my
+        experience and skills!
       </p>
     </div>
     <h3 class="home">Explore more about me...</h3>
