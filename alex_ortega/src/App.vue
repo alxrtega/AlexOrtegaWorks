@@ -6,8 +6,8 @@
     </div>
     <div class="navbar" v-if="$route.fullPath !== '/'">
       <router-link to="/" class="homeButton">Home</router-link>
-      <router-link to="academia">Academia</router-link>
       <router-link to="bio">Bio</router-link>
+      <router-link to="academia">Education</router-link>
       <router-link to="experience">Experience</router-link>
     </div>
     <div align="center">
@@ -101,9 +101,13 @@ body {
   font-size: large;
 }
 
+.ident {
+  text-indent: 40px;
+}
+
 h1 {
   font-size: 50px;
-  text-shadow: 3px 3px 5px #2c2f31;
+  text-shadow: 3px 3px 5px #5c5e61;
 }
 
 h2 {
@@ -114,9 +118,9 @@ h3 {
   text-align: left;
 }
 
-h3.home {
+.home {
   text-align: left;
-  text-shadow: 3px 3px 5px #2c2f31;
+  text-shadow: 3px 3px 5px #5c5e61;
 }
 
 li {
@@ -127,7 +131,7 @@ img {
   width: 250px;
   height: auto;
   border-radius: 12px;
-  box-shadow: 2px 2px 4px #2c2f31;
+  box-shadow: 2px 2px 4px #5c5e61;
 }
 
 .pageImg {
@@ -139,7 +143,7 @@ img {
 .box {
   max-width: 600px;
   min-width: 100px;
-  box-shadow: 2px 2px 4px #2c2f31;
+  box-shadow: 2px 2px 4px #5c5e61;
   padding: 10px;
   border-radius: 12px;
 }
@@ -156,7 +160,7 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  box-shadow: 2px 2px 4px #2c2f31;
+  box-shadow: 2px 2px 4px #5c5e61;
 }
 
 .green {
@@ -171,7 +175,7 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  box-shadow: 2px 2px 4px #2c2f31;
+  box-shadow: 2px 2px 4px #5c5e61;
 }
 
 .gray {
@@ -186,7 +190,7 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  box-shadow: 2px 2px 4px #2c2f31;
+  box-shadow: 2px 2px 4px #5c5e61;
 }
 
 .red {
@@ -201,6 +205,6 @@ img {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 12px;
-  box-shadow: 2px 2px 4px #2c2f31;
+  box-shadow: 2px 2px 4px #5c5e61;
 }
 </style>

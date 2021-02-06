@@ -1,18 +1,18 @@
 <template>
   <div>
     <hero-bar>
-      <h1>Academia</h1>
+      <h1>Education</h1>
       <hr class="title" width="300px" />
     </hero-bar>
     <div class="box">
       <h2>The University of Texas at El Paso</h2>
       <hr width="300px" align="center" />
 
-      <p align="left">
-        Pursuing a Bachelor's Degree in Computer Science with a Concentration
-        Software Engineering. The courses have been rewarding thus far. The
+      <p align="left" class="ident">
+        Pursuing a Bachelor's Degree in Computer Science with a Concentration in
+        Software Engineering. All the courses have been rewarding thus far. The
         science behind computer components are complex but understanding the
-        logic and the structuring help understand the design.
+        logic and the structuring helps understand the design.
       </p>
       <div align="left">
         <button class="button green" @click="$refs.modalName00.openModal()">
@@ -45,7 +45,7 @@
       <h2>El Paso Community College</h2>
       <hr width="300px" align="center" />
 
-      <p align="left">
+      <p align="left" class="ident">
         Early in my college career I had begun to grow interest in computer
         science because I had a great professor that would motivate and insipire
         through the teachings and assignments.

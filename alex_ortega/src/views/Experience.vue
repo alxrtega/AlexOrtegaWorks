@@ -6,7 +6,7 @@
     </hero-bar>
     <div class="box">
       To request a resume, please send me an email. My contact information will
-      be found in the Bio page under my Contact Card.
+      be found in the Home page under my Contact Card.
     </div>
     <br />
     <div class="box">
@@ -16,16 +16,16 @@
       <p align="left"></p>
       <ul>
         <li>
-          Single Page Application to build a simple and functional web
-          application<br />
+          Understand Single Page Application to build a simple and functional
+          web application<br />
         </li>
         <li>
           Implemented the web application using the progressive Vue Framework
           and CSS for the frontend<br />
         </li>
         <li>
-          Launched web application to a web hosting provider and assigned a
-          relevant domain name<br />
+          Launched the web application after assigning a relevant domain name
+          and by uploading the source code to DreamHost using FileZilla<br />
         </li>
       </ul>
       <div align="left">
@@ -47,12 +47,12 @@
       <p align="left"></p>
       <ul>
         <li>
-          Captured the client’s requirements to ensure the correct product was
-          delivered<br />
-        </li>
-        <li>
           Collaborated in a team of five members to build a web application for
           the Department of Defense<br />
+        </li>
+        <li>
+          Captured the client’s requirements to ensure the correct product was
+          delivered<br />
         </li>
         <li>
           Fulfilled the responsibility of a Systems Architect by verifying and
@@ -84,8 +84,8 @@
           Cucumber Testing Tool<br />
         </li>
         <li>
-          Implemented and analyzed rules written in the programming language,
-          Gosu<br />
+          Analyzed and implemented rules written in Gosu, a language that runs
+          on the Java Virtual Machine<br />
         </li>
       </ul>
     </div>
@@ -93,7 +93,7 @@
     <div class="box">
       <h2>Fred Loya Insurance</h2>
       <hr width="300px" align="center" />
-      <p align="left">
+      <p align="left" class="ident">
         I was fortunate enough to start working in the IT department for Fred
         Loya Insurance at a young age. Throughout my career I was able to learn
         from many talented individuals and refine my skills as an IT
@@ -116,10 +116,9 @@
             <li>
               Install appropiate software and network printers in the computers
             </li>
-            <li>Configure new equipment and devices that had arrived</li>
             <li>
-              Our responsibility was to create and issue tickets that would be
-              escalated to the corresponding department
+              Our responsibility was to create and issue tickets, some of the
+              tickets would be escalated to the corresponding department
             </li>
             <li>
               Report network outages to the corresponding ISP and escalate
@@ -140,8 +139,8 @@
               aid offices and other call centers
             </li>
             <li>
-              Had the opportunity to implement a printer and workstation scheme
-              for the equipment in a new call center
+              Had the opportunity to implement a workstation and printer scheme
+              in a new call center
             </li>
           </ul>
         </li>
@@ -177,9 +176,10 @@
               promptly
             </li>
             <li>
-              Keep track of the laptop inventory using the proper scheme through
-              the asset system
+              Keep track of the laptops and wireless devices inventory using the
+              proper scheme through the asset system
             </li>
+            <li>Provide an inventory reports to request new equipment</li>
           </ul>
         </li>
         <li>
@@ -211,14 +211,14 @@
         ><br />
         <modal ref="modalName02">
           <template v-slot:header>
-            <ul>
+            <ul class="two">
               <li>Java (5 years)<br /></li>
               <li>C (2 years)<br /></li>
               <li>Python (1 year)<br /></li>
               <li>Javascript (1 year)<br /></li>
               <li>GitHub<br /></li>
               <li>GitBash<br /></li>
-              <li>Visual Studio Code<br /></li>
+              <li>VS Code<br /></li>
               <li>Jira Project Tracking Software<br /></li>
               <li>FileZilla<br /></li>
               <li>Cucumber Testing Tool<br /></li>
