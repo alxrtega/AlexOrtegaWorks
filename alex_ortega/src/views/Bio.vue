@@ -37,11 +37,11 @@
         skills in relevant situations. The IT manager helped me greatly as he
         would assign me to various projects and positions.
       </p>
-      <p>
+      <p align="left">
         When I am not busy working with a computer, I can be found working out,
         jogging (a new hobby), playing chess or simply spending time with
-        friends and family. I used to play football so I always try find a way
-        to stay active. I also like to read books when I am not in school.
+        friends and family. I always find ways to stay active or find something
+        to do. I also have a small collection of books.
       </p>
       <p align="left">
         I've had great mentors throughout my life and that has shaped the way I

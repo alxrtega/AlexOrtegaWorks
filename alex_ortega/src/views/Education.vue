@@ -14,14 +14,14 @@
         science behind computer components are complex but understanding the
         logic and the structuring helps understand designs.
         <ul>
-          <li>Software Engineering 1 & 2</li>
-          <li>Software Integration and V&V</li>
-          <li>Software Construction</li>
-          <li>Object-Oriented Programming</li>
-          <li>Computer Networks</li>
-          <li>Programming Languages</li>
-        </ul>
-        </p>
+              <li>Software Engineering 1 & 2</li>
+              <li>Software Integration and V&V</li>
+              <li>Software Construction</li>
+              <li>Object-Oriented Programming</li>
+              <li>Computer Networks</li>
+              <li>Programming Languages</li>
+            </ul>
+      </p>
     </div>
     <br />
     <div class="box">
