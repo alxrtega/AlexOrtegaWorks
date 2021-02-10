@@ -20,23 +20,18 @@
       <br />
       <h3 class="home">Reach out to me...</h3>
       <br />
-      <div align="left">
-        <button class="button green" @click="$refs.modalName02.openModal()">
-          Contact Card</button
-        ><br />
-        <modal ref="modalName02">
-          <template v-slot:header>
-            <p align="left">Name: Alex Ortega</p>
-            <p align="left">Email: a.ortega6243@gmail.com</p>
-            <div>
-              <button
-                class="button red"
-                @click="$refs.modalName02.closeModal()"
-              >
-                Close
-              </button>
-            </div>
-          </template>
+      <div>
+        <button @click="openModal" v-if="!showModal" class="green">
+          Contact Card
+        </button>
+        <modal v-if="showModal" :showModal="showModal" @clicked="onChildClick">
+          <div slot="header">
+            <h2 class="modal-title">Contact Card</h2>
+          </div>
+          <div slot="body">
+            <p>Alex Ortega</p>
+            <p>Email: a.ortega6243@gmail.com</p>
+          </div>
         </modal>
       </div>
     </div>
@@ -51,7 +46,23 @@ export default {
   props: {
     msg: String
   },
-  components: { Modal }
+  components: { Modal },
+  data() {
+    return {
+      showModal: false
+    };
+  },
+  methods: {
+    openModal() {
+      this.showModal = true;
+    },
+    closeModal() {
+      this.$emit("clicked");
+    },
+    onChildClick() {
+      this.showModal = false;
+    }
+  }
 };
 </script>
 

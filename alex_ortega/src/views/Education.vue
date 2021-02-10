@@ -12,33 +12,16 @@
         Pursuing a Bachelor's Degree in Computer Science with a Concentration in
         Software Engineering. All the courses have been rewarding thus far. The
         science behind computer components are complex but understanding the
-        logic and the structuring helps understand the design.
-      </p>
-      <div align="left">
-        <button class="button green" @click="$refs.modalName00.openModal()">
-          Related Courses</button
-        ><br />
-        <modal ref="modalName00">
-          <template v-slot:header>
-            <ul>
-              <li>Software Integration and V&V</li>
-              <li>Software Construction</li>
-              <li>Software Engineering Design and Implementation</li>
-              <li>Advanced Object-Oriented Programming</li>
-              <li>Computer Networks</li>
-              <li>Programming Languages</li>
-            </ul>
-            <div>
-              <button
-                class="button red"
-                @click="$refs.modalName00.closeModal()"
-              >
-                Close
-              </button>
-            </div>
-          </template>
-        </modal>
-      </div>
+        logic and the structuring helps understand designs.
+        <ul>
+          <li>Software Engineering 1 & 2</li>
+          <li>Software Integration and V&V</li>
+          <li>Software Construction</li>
+          <li>Object-Oriented Programming</li>
+          <li>Computer Networks</li>
+          <li>Programming Languages</li>
+        </ul>
+        </p>
     </div>
     <br />
     <div class="box">
@@ -48,38 +31,26 @@
       <p align="left" class="ident">
         Early in my college career I had begun to grow interest in computer
         science because I had a great professor that would motivate and insipire
-        through the teachings and assignments.
-      </p>
-      <div align="left">
-        <button class="button green" @click="$refs.modalName01.openModal()">
-          Related Courses</button
-        ><br />
-        <modal ref="modalName01">
-          <template v-slot:header>
-            <ul>
+        through the lectures and assignments.
+        <ul>
               <li>Data Structures and Algorithms</li>
               <li>Discrete Mathematics</li>
+              <li>Machine Language</li>
               <li>Calculus 1 & 2</li>
             </ul>
-            <div>
-              <button
-                class="button red"
-                @click="$refs.modalName01.closeModal()"
-              >
-                Close
-              </button>
-            </div>
-          </template>
-        </modal>
-      </div>
+      </p>
     </div>
   </div>
 </template>
 
 <script>
-import Modal from "@/components/Modal.vue";
 import HeroBar from "@/components/HeroBar";
 export default {
-  components: { Modal, HeroBar }
+  components: { HeroBar },
+  data() {
+    return {
+      showModal: false,
+    };
+  },
 };
 </script>

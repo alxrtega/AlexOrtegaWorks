@@ -196,7 +196,7 @@ img {
 .red {
   background-color: #ff0000;
   color: #f2f2f2;
-  border: none;
+  border: single;
   padding: 2px 5px;
   text-align: center;
   text-decoration: none;

@@ -25,17 +25,17 @@
         school offered. I had a great teacher and this is where it all started.
         Through the program I was able to get my A+ and Network+ certifications.
         As a senior in High School I had earned the privilege to be a student IT
-        technician and I would assist teachers, counselors, all staff. I would
-        also would help maintain the computer labs in the school. It was a fun
-        and it was my best High School experience.
+        technician. I would assist teachers, counselors, all staff and I
+        contribute to help maintain the computer labs in the school. It was a
+        fun learning experience and it was my best High School experience.
       </p>
       <p align="left">
         Starting my IT career after graduating from High School helped me
         develop better intrapersonal skills. Those learned skills allowed me to
         collaborate better with others and express ideas. I also learned so much
         as a professional in IT. I always wanted to apply my newly learned
-        skills in relevant situations. My manager, the IT manager, helped me
-        greatly as he would assign me to various projects and positions.
+        skills in relevant situations. The IT manager helped me greatly as he
+        would assign me to various projects and positions.
       </p>
       <p>
         When I am not busy working with a computer, I can be found working out,
@@ -58,6 +58,8 @@
 import HeroBar from "@/components/HeroBar";
 
 export default {
-  components: { HeroBar }
+  components: {
+    HeroBar
+  }
 };
 </script>

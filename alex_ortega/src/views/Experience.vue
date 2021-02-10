@@ -21,7 +21,7 @@
         </li>
         <li>
           Implemented the web application using the progressive Vue Framework
-          and CSS for the frontend<br />
+          and CSS for styling<br />
         </li>
         <li>
           Launched the web application after assigning a relevant domain name
@@ -59,12 +59,8 @@
           collecting the change request forms<br />
         </li>
         <li>
-          Designed and implemented a full stack web application covering the
-          client side and the server side<br />
-        </li>
-        <li>
-          Presented the web application to the clients to verify that the
-          requirements were met<br />
+          Designed and implemented a full stack web application using the Vue
+          Framework for the client side and MongoDB for server side<br />
         </li>
       </ul>
     </div>
@@ -81,11 +77,19 @@
         </li>
         <li>
           Researched Behavior Driven Development in depth and understood the
-          Cucumber Testing Tool<br />
+          purpose of Gherkin and the Cucumber Testing Tool<br />
         </li>
         <li>
-          Analyzed and implemented rules written in Gosu, a language that runs
-          on the Java Virtual Machine<br />
+          Analyzed and implemented policy rules written in Gosu, a programming
+          language that runs in the Java Virtual Machine<br />
+        </li>
+        <li>
+          Identified the cause that was impeding Cucumber from integrating with
+          the Guidewire platform<br />
+        </li>
+        <li>
+          Experienced work outside of school in a self-managed environment and
+          communicated any doubts<br />
         </li>
       </ul>
     </div>
@@ -105,20 +109,24 @@
           <h3>Helpdesk Technician</h3>
           <ul>
             <li>
-              Attend weekly meetings to stay up to date and to discuss pending
+              Attended weekly meetings to stay up to date and to discuss pending
               projects
             </li>
             <li>
-              Provide assistance for users in more than 500 offices around the
+              Collaborated with the whole team through Microsoft Teams and we
+              would brainstorm solutions and share new troubleshooting ideas
+            </li>
+            <li>
+              Provided assistance for users in more than 500 offices around the
               company to ensure that customers received great service without
               delays
             </li>
             <li>
-              Install appropiate software and network printers in the computers
+              Installed appropiate software and configured network printers
             </li>
             <li>
-              Our responsibility was to create and issue tickets, some of the
-              tickets would be escalated to the corresponding department
+              Was responsible to create and issue tickets, some of the tickets
+              would be escalated to the corresponding department
             </li>
             <li>
               Report network outages to the corresponding ISP and escalate
@@ -131,16 +139,16 @@
           <h3>Support Technician</h3>
           <ul>
             <li>
+              Priviledged to work out of town to complete projects to aid
+              offices and other call centers
+            </li>
+            <li>
               Verify that equipment in the call centers and offices were
               properly working and workstations had the correct configuration
             </li>
             <li>
-              In some ocassions it was needed for us to travel out of town to
-              aid offices and other call centers
-            </li>
-            <li>
-              Had the opportunity to implement a workstation and printer scheme
-              in a new call center
+              Had the opportunity to implement workstation and printer scheme in
+              a new call center
             </li>
           </ul>
         </li>
@@ -152,10 +160,10 @@
             </li>
             <li>
               Have equipment such as keyboards, computer mice and monitors ready
-              to replace
+              for replacement
             </li>
             <li>
-              Create shipping labels and ship new equipment for new offices
+              Create shipping labels and ship new equipment to new offices
             </li>
             <li>
               Worked alongside other technicians to deliver equipment in a
@@ -172,14 +180,13 @@
             </li>
             <li>Troubleshoot laptop issues the users had and find solutions</li>
             <li>
-              Provide temporary laptops and equipment with the correct software,
-              promptly
+              Provide temporary laptops and equipment with the correct software
             </li>
             <li>
               Keep track of the laptops and wireless devices inventory using the
               proper scheme through the asset system
             </li>
-            <li>Provide an inventory reports to request new equipment</li>
+            <li>Provide inventory reports to request new equipment</li>
           </ul>
         </li>
         <li>
@@ -206,43 +213,28 @@
       <h2>Techinical Skills</h2>
       <hr width="300px" align="center" />
       <div align="left">
-        <button class="button green" @click="$refs.modalName02.openModal()">
-          List of Skills</button
-        ><br />
-        <modal ref="modalName02">
-          <template v-slot:header>
-            <ul class="two">
-              <li>Java (5 years)<br /></li>
-              <li>C (2 years)<br /></li>
-              <li>Python (1 year)<br /></li>
-              <li>Javascript (1 year)<br /></li>
-              <li>GitHub<br /></li>
-              <li>GitBash<br /></li>
-              <li>VS Code<br /></li>
-              <li>Jira Project Tracking Software<br /></li>
-              <li>FileZilla<br /></li>
-              <li>Cucumber Testing Tool<br /></li>
-            </ul>
-            <div>
-              <button
-                class="button red"
-                @click="$refs.modalName02.closeModal()"
-              >
-                Close
-              </button>
-            </div>
-          </template>
-        </modal>
+        <ul class="two">
+          <li>Java<br /></li>
+          <li>C<br /></li>
+          <li>Python<br /></li>
+          <li>Javascript<br /></li>
+          <li>MongoDB</li>
+          <li>GitHub<br /></li>
+          <li>GitBash<br /></li>
+          <li>VS Code<br /></li>
+          <li>Jira Project Tracking Software<br /></li>
+          <li>FileZilla<br /></li>
+          <li>Cucumber Testing Tool<br /></li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Modal from "@/components/Modal.vue";
 import HeroBar from "@/components/HeroBar";
 export default {
-  components: { Modal, HeroBar }
+  components: { HeroBar }
 };
 </script>
 <style scoped>
