@@ -16,8 +16,8 @@
       <p align="left"></p>
       <ul>
         <li>
-          Understand Single Page Application to build a simple and functional
-          web application<br />
+          Learned more about Single Page Application to build a simple and
+          functional web application<br />
         </li>
         <li>
           Implemented the web application using the progressive Vue Framework
@@ -47,12 +47,8 @@
       <p align="left"></p>
       <ul>
         <li>
-          Collaborated in a team of five members to build a web application for
-          the Department of Defense<br />
-        </li>
-        <li>
-          Captured the client’s requirements to ensure the correct product was
-          delivered<br />
+          Collaborated with a team to build a full stack web application for the
+          Department of Defense<br />
         </li>
         <li>
           Fulfilled the responsibility of a Systems Architect by verifying and
@@ -95,16 +91,36 @@
     </div>
     <br />
     <div class="box">
-      <h2>Fred Loya Insurance</h2>
+      <h2>Fred Loya Insurance<br />IT Technician</h2>
       <hr width="300px" align="center" />
-      <p align="left" class="ident">
-        I was fortunate enough to start working in the IT department for Fred
-        Loya Insurance at a young age. Throughout my career I was able to learn
-        from many talented individuals and refine my skills as an IT
-        professional. I had the privilege to be part of this department for
-        nearly a decade.
-      </p>
       <ul>
+        <li>
+          <h3>Virtual Agent Project</h3>
+          <ul>
+            <li>
+              Installed Cisco Jabber, upgraded RAM, update drivers, connected
+              cameras and headsets that equipped workstations to communicate
+              with Kioks at the Sales Offices
+            </li>
+            <li>
+              Traveled to Sales Offices to install Kiosk computers and equipped
+              the stations with cameras, handsets and proper software
+            </li>
+            <li>
+              Maintained Virtual Agent stations by troubleshooting and replacing
+              equipment with reliable devices
+            </li>
+            <li>
+              Collaborated with Network Engineers and Administrators to ensure
+              that the network and stations were robust to handle video calls
+              over the network
+            </li>
+            <li>
+              Kept record of all the Virtual Agent inventory and provided
+              reports when new equipment was needed
+            </li>
+          </ul>
+        </li>
         <li>
           <h3>Helpdesk Technician</h3>
           <ul>
@@ -113,8 +129,8 @@
               projects
             </li>
             <li>
-              Collaborated with the whole team through Microsoft Teams and we
-              would brainstorm solutions and share new troubleshooting ideas
+              Communicated with the team through Microsoft Teams to brainstorm
+              solutions and share troubleshooting ideas
             </li>
             <li>
               Provided assistance for users in more than 500 offices around the
@@ -126,7 +142,8 @@
             </li>
             <li>
               Was responsible to create and issue tickets, some of the tickets
-              would be escalated to the corresponding department
+              would be escalated to the corresponding department to find better
+              solutions
             </li>
             <li>
               Report network outages to the corresponding ISP and escalate
@@ -147,8 +164,8 @@
               properly working and workstations had the correct configuration
             </li>
             <li>
-              Had the opportunity to implement workstation and printer scheme in
-              a new call center
+              Offered efficient schemes to configure workstations and network
+              printers
             </li>
           </ul>
         </li>
@@ -176,15 +193,22 @@
           <ul>
             <li>
               Responsible to maintain laptops in good conditions with the latest
-              software updates and working hardware
-            </li>
-            <li>Troubleshoot laptop issues the users had and find solutions</li>
-            <li>
-              Provide temporary laptops and equipment with the correct software
+              software updates and by verifying that hardware components were
+              working
             </li>
             <li>
-              Keep track of the laptops and wireless devices inventory using the
-              proper scheme through the asset system
+              Important documents were backed up and restored once the repaired
+              laptop was ready
+            </li>
+            <li>
+              Troubleshooted laptop issues the users had and found solutions
+            </li>
+            <li>
+              Provided temporary laptops with the correct software and equipment
+            </li>
+            <li>
+              Assigned users to equipment such as laptops and the wireless
+              devices
             </li>
             <li>Provide inventory reports to request new equipment</li>
           </ul>
@@ -197,11 +221,11 @@
               dates
             </li>
             <li>
-              Have the correct footage immediately and delivered in a secure
+              Had the correct footage delivered immediately and in a secure
               manner
             </li>
             <li>
-              Verify that that the survaillance equipment such as the cameras
+              Verified that that the survaillance equipment such as the cameras
               and DVRs were working properly
             </li>
           </ul>
@@ -225,6 +249,7 @@
           <li>Jira Project Tracking Software<br /></li>
           <li>FileZilla<br /></li>
           <li>Cucumber Testing Tool<br /></li>
+          <li>Active Directory<br /></li>
         </ul>
       </div>
     </div>

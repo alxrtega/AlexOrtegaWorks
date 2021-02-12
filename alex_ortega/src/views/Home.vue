@@ -20,7 +20,7 @@
       <br />
       <h3 class="home">Reach out to me...</h3>
       <br />
-      <div>
+      <div align="left">
         <button @click="openModal" v-if="!showModal" class="green">
           Contact Card
         </button>
@@ -29,8 +29,8 @@
             <h2 class="modal-title">Contact Card</h2>
           </div>
           <div slot="body">
-            <p>Alex Ortega</p>
-            <p>Email: a.ortega6243@gmail.com</p>
+            <p align="left">Alex Ortega</p>
+            <p align="left">Email: a.ortega6243@gmail.com</p>
           </div>
         </modal>
       </div>
